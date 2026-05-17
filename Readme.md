@@ -2,11 +2,11 @@
 
 ## Abstract
 
-The detection and prediction of seizures based on Electroencephalography (EEG) remain intrinsically difficult owing to the pronounced nonstationarity and nonlinear dynamics that govern neural activity. This work pioneers a novel paradigm by reformulating EEG recordings into phase-based reconstruction (PSR) which are inherently invariant to amplitude modulation and furnish a direct characterization of temporal synchronization and coordination among distributed neural assemblies. Extensive validation on the TUH EEG Seizure Corpus demonstrates that the proposed framework decisively surpasses prevailing state-of-the-art approaches, attaining a receiver operating characteristic area under the curve (ROC–AUC) of 0.9816 for seizure detection and 0.9855 for seizure prediction under a 10-minute forecasting horizon.
+While electroencephalography (EEG) is the most established diagnostic modality for epilepsy, seizure detection and prediction based on EEG remain challenging tasks owing to the intrinsic noise, nonstationarity and complex, nonlinear and topographically distributed dynamics of neural activity. This work introduces a novel solution by applying a phase-space reconstruction (PSR) to the EEG signal, making it invariant to amplitude modulation, yet susceptible to the subtle change in the temporal and spatial coherence of the activity of  distributed neural assemblies preceding seizures. Extensive validation on the Temple University Hospital (TUH) EEG Seizure Corpus (TUSZ) demonstrates that the proposed framework decisively surpasses prevailing state-of-the-art approaches, attaining a receiver operating characteristic area under the curve (ROC–AUC) of 0.9715 for seizure detection and 0.9248 for seizure prediction under a 53-second forecasting horizon. All code and accompanying resources are publicly accessible {here.} 
 
 ## Dataset
 
-This project uses the publicly available Temple University Seizure Corpus (TUS), a subset of the Temple University EEG Corpus (TUEG). 
+This project uses the publicly available Temple University Seizure Corpus (TUS), a subset of the Temple University EEG Corpus (TUSZ). 
 
 ## Methodology
 
